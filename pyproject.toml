@@ -1,0 +1,19 @@
+[project]
+name = "datareader"
+version = "0.1.0"
+description = "Add your description here"
+authors = [
+    { name = "KiplangatJaphet" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "lxml>=6.1.2",
+    "pandas>=3.0.5",
+]
+
+[project.scripts]
+datareader = "datareader:main"
+
+[build-system]
+requires = ["uv_build>=0.12.6,<0.13.0"]
+build-backend = "uv_build"
